@@ -1,0 +1,48 @@
+body{
+    font-family: cursive;
+    text-align: center;
+    background-color: ivory;
+}
+.con{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+input{
+    padding: 50px 20px 20px;
+}
+header input{
+    padding: 10px 10px 10px;
+    background-color: wheat;
+    border-radius: 10px;
+    border:none;
+    outline: none;
+    margin-bottom: 10px;
+}
+header input:focus{
+    background-color: silver;
+}
+header .inp{
+    max-width: 400px;
+    width:100%;
+}
+header sub{
+    width:100%;
+    max-width: 30px;
+    border-radius: 10px;
+    border:none;
+    outline: none;
+}
+.sub button{
+    background-color: green;
+    padding:5px;
+    max-width: 100px;
+    width:100%;
+    border-radius: 10;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.body{
+    font-size: 30px;
+}
